@@ -163,7 +163,7 @@ You can use files for each of the variables by appending `_FILE` to the name of 
 
 ## Security Features
 
-Kutt includes multiple security mechanisms:
+URL-shortener-System includes multiple security mechanisms:
 
 - JWT based authentication
 - Password protected links
