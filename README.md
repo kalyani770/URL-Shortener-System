@@ -47,6 +47,23 @@
 - Admin page to manage users and links
 - Customizability and themes
 - RESTful API
+## System Architecture
+
+Kutt follows a modern web application architecture designed for scalability and maintainability.
+
+text
+Client Browser
+      │
+      ▼
+Frontend (HTMX / UI)
+      │
+      ▼
+REST API Layer
+      │
+ ┌────┴────┐
+ ▼         ▼
+Redis   Database
+Cache   (SQLite/Postgres/MySQL)
 
 ## Donations and sponsors
 
