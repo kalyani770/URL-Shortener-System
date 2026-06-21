@@ -13,6 +13,15 @@ if (env.REDIS_ENABLED) {
   });
 }
 
+  client.on("connect", () => {
+    console.log("Redis connection established");
+  });
+
+  client.on("error", (error) => {
+    console.error("Redis connection error:", error.message);
+  });
+}
+
 const key = {
   link: (address, domain_id) => `l:${address}:${domain_id || ""}`,
   domain: (address) => `d:${address}`,
