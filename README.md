@@ -161,6 +161,26 @@ You can use files for each of the variables by appending `_FILE` to the name of 
 | `REPORT_EMAIL` | The email address that will receive submitted reports | - | `example@yoursite.com` | 
 | `CONTACT_EMAIL` | The support email address to show on the app | - | `example@yoursite.com` | 
 
+## Security Features
+
+Kutt includes multiple security mechanisms:
+
+- JWT based authentication
+- Password protected links
+- Rate limiting support
+- OpenID Connect authentication
+- Environment-based secret management
+- Proxy trust configuration
+- Custom domain isolation
+
+### Recommended Production Practices
+
+- Use HTTPS
+- Enable Redis-backed rate limiting
+- Configure secure JWT secrets
+- Restrict anonymous link creation
+- Enable database SSL
+
 ## Themes and customizations
 
 You can add styles, change images, or render custom HTML. Place your content inside the [`/custom`](./custom) folder according to below instructions.
