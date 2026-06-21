@@ -18,6 +18,10 @@
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
 [![GitHub license](https://img.shields.io/github/license/thedevs-network/kutt.svg)](https://github.com/thedevs-network/kutt/blob/develop/LICENSE)
 
+## Additional Documentation
+
+- [Developer Guide](./docs/developer-guide.md)
+
 ## Table of contents
 
 - [Key features](#key-features)
